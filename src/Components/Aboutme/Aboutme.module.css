@@ -1,0 +1,11 @@
+.aboutContainer {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.imgAbout {
+    width: 100%;
+    max-height: 120vh;
+}

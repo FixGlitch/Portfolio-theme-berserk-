@@ -1,0 +1,21 @@
+/* Establecer el estilo del fondo negro */
+.Back {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo {
+    display: flex;
+    margin: auto;
+    animation: latido 1s infinite;
+}
+
+@keyframes latido {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}

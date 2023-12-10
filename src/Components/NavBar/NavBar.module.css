@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&display=swap");
+
+.navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  background-color: #000;
+  height: 70px;
+  width: 100%;
+  color: white;
+  z-index: 100;
+}
+
+.Logo {
+  height: 100%;
+  margin-left: 50px;
+  object-fit: cover;
+}
+
+.refContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 300px;
+  margin-top: 10px;
+}
+
+.ref {
+  font-size: 1.2em;
+  font-family: 'Bebas Neue';
+  color: #e41e27;
+  text-align: center;
+  display: inline-block;
+  width: 108px;
+  margin-left: 50px;
+}
