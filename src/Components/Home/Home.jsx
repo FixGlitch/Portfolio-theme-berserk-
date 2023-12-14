@@ -12,11 +12,10 @@ export default function Home() {
             <div>
                 <h1 className={styles.lucasBlanco}>Lucas Blanco</h1>
                 <h2 className={styles.frontendDeveloper}>Frontend developer</h2>
-                <a href="https://www.instagram.com/fixglitchdev/"><img className={styles.socialIcon} src={Ig}/></a>
-                <a href="https://github.com/FixGlitch"><img className={styles.socialIcon} src={Git}/></a>
-                <a href="https://www.linkedin.com/in/lucasdblanco/"><img className={styles.socialIcon} src={In}/></a>
+                <a href="https://www.instagram.com/fixglitchdev/"><img className={styles.socialIcon} src={Ig} /></a>
+                <a href="https://github.com/FixGlitch"><img className={styles.socialIcon} src={Git} /></a>
+                <a href="https://www.linkedin.com/in/lucasdblanco/"><img className={styles.socialIcon} src={In} /></a>
             </div>
-            <Aboutme/>
         </div>
     )
 };

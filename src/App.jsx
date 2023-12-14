@@ -6,6 +6,10 @@ import Home from "./Components/Home/Home";
 import NavBar from "./Components/NavBar/NavBar";
 import Loader from "./Components/Loader/Loader";
 import { setLoading } from './Redux/loadingSlice';
+import Aboutme from './Components/Aboutme/Aboutme';
+import Skills from './Components/Skills/Skills';
+import Proyects from './Components/Proyects/Proyects';
+import Contact from './Components/Contact/Contact';
 
 function App() {
   const { pathname } = useLocation();
@@ -28,9 +32,11 @@ function App() {
       ) : (
         <>
           <NavBar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-          </Routes>
+          <Home/>
+          <Aboutme/>
+          <Skills/>
+          <Proyects/>
+          <Contact/>
         </>
       )}
     </>
