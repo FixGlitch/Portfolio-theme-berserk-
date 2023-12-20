@@ -13,8 +13,8 @@ export default function Contact({ onClick }) {
     return (
         <div id="contact" className={styles.containerFooter}>
             <p className={styles.get}>get in touch 🠮🠮🠮🠮</p>
-           <a href="#" onClick={() => handleClick('home')}><img className={styles.logo} src={logo} alt="logo" /></a>
-            <a  href="https://calendly.com/blancolucas112/30min?month=2023-12" className={styles.ref}>🠮🠮🠮🠮 Schedule a Meeting</a>
+           <a href="https://calendly.com/blancolucas112/30min?month=2023-12"><img className={styles.logo} src={logo} alt="logo" /></a>
+            <a  href="#" onClick={() => handleClick('home')}  className={styles.ref}>⮅</a>
         </div>
     )
 };
